@@ -1,0 +1,114 @@
+@font-face{
+	font-family: "museo";
+	src: url("../fonts/museo/MuseoSansRegular.ttf");
+	font-weight: normal;
+}
+@font-face{
+	font-family: "museo";
+	src: url("../fonts/museo/MuseoSansBold.ttf");
+	font-weight: bold;
+}
+html{
+	overflow-x: hidden;
+	padding: 0 20px;
+}
+body{
+	font-family: museo, sans-serif;
+	font-size: 1.1rem;
+	min-width: 360px;
+	width: 970px;
+	margin: 3rem auto;
+	font-weight: normal;
+	position: relative;
+	line-height: 1.5;
+	overflow-x: hidden;
+	opacity: 1;
+	color: #1d1d1f;
+	-webkit-text-size-adjust: none;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+*{
+	outline: none;
+	font-family: museo, sans-serif;
+}
+b, strong{
+	font-weight: bold;
+}
+a{
+	text-decoration: none;
+	color: #007eff;
+}
+a:hover{
+	border-bottom: 1px solid;
+}
+p{
+	margin: .8rem 0 0 1px;
+}
+*::selection{
+	color: #fff;
+	background: #000;
+}
+*::-moz-selection{
+	color: #fff;
+	background: #000;
+}
+*::-webkit-selection{
+	color: #fff;
+	background: #000;
+}
+header h1{
+	font-size: 2.7rem;
+	margin: 0;
+}
+.body h2{
+	font-size: 2rem;
+	margin: 1.8rem 0 0;
+	color: #333;
+}
+.body h3{
+	margin: 1.8rem 0 0;
+	color: #333;
+}
+a.smile{
+	font-weight: bold;
+}
+a.smile:hover{
+	border: none;
+}
+p.contacts{
+	margin: 6px 0 0 12px;
+}
+i{
+	font-size: 11px;
+	margin-top: 2rem;
+	display: block;
+	color: #999;
+}
+
+/*Media*/
+
+@media only screen and (max-width : 1000px){
+
+	body{
+		width: 100%;
+		margin: .5rem 0 1rem;
+	}
+
+}
+
+@media only screen and (max-width : 700px){
+
+	body{
+		margin: .8rem 0 1rem;
+	}
+	header h1{
+		font-size: 2rem;
+		line-height: 1.4;
+	}
+	.body h2{
+		font-size: 1.7rem;
+		margin: 1.4rem 0 0;
+	}
+
+}
