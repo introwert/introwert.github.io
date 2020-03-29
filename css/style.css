@@ -12,7 +12,6 @@ body{
 	font-family: museo, sans-serif;
 	font-size: 1.1rem;
 	min-width: 360px;
-	width: 970px;
 	margin: 3rem auto;
 	padding: 0 20px;
 	font-weight: normal;
@@ -54,16 +53,20 @@ p{
 	color: #fff;
 	background: #000;
 }
+header, section{
+	width: 970px;
+	margin: auto;
+}
 header h1{
 	font-size: 2.7rem;
 	margin: 0;
 }
-.body h2{
+section h2{
 	font-size: 2rem;
 	margin: 1.8rem 0 0;
 	color: #333;
 }
-.body h3{
+section h3{
 	margin: 1.8rem 0 0;
 	color: #333;
 }
@@ -88,8 +91,10 @@ i{
 @media only screen and (max-width : 1000px){
 
 	body{
-		width: 100%;
 		margin: 1rem 0 2rem;
+	}
+	header, section{
+		width: 100%;
 	}
 
 }
@@ -100,7 +105,7 @@ i{
 		font-size: 2rem;
 		line-height: 1.4;
 	}
-	.body h2{
+	section h2{
 		font-size: 1.7rem;
 		margin: 1.4rem 0 0;
 	}
