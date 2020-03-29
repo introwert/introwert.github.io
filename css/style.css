@@ -1,11 +1,11 @@
 @font-face{
 	font-family: "museo";
-	src: url("../fonts/museo/MuseoSansRegular.ttf");
+	src: url("../fonts/MuseoSansRegular.woff");
 	font-weight: normal;
 }
 @font-face{
 	font-family: "museo";
-	src: url("../fonts/museo/MuseoSansBold.ttf");
+	src: url("../fonts/MuseoSansBold.woff");
 	font-weight: bold;
 }
 html{
