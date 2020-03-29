@@ -1,0 +1,66 @@
+@import "../fonts/font-awesome/css/all.min.css";
+@font-face{
+	font-family: "rbt";
+	src: url("../fonts/rbt/Roboto-Thin.ttf");
+	font-weight: 100;
+}
+@font-face{
+	font-family: "rbt";
+	src: url("../fonts/rbt/Roboto-Regular.ttf");
+	font-weight: normal;
+}
+@font-face{
+	font-family: "rbt";
+	src: url("../fonts/rbt/Roboto-Bold.ttf");
+	font-weight: bold;
+}
+@font-face{
+	font-family: "rbt-cb";
+	src: url("../fonts/rbt-cb/RobotoCondensed-Light.ttf");
+	font-weight: 100;
+}
+@font-face{
+	font-family: "rbt-cb";
+	src: url("../fonts/rbt-cb/RobotoCondensed-Regular.ttf");
+	font-weight: normal;
+}
+@font-face{
+	font-family: "rbt-cb";
+	src: url("../fonts/rbt-cb/RobotoCondensed-Bold.ttf");
+	font-weight: bold;
+}
+@font-face{
+	font-family: "sf-rounded";
+	src: url("../fonts/sf-rounded/SFCompactRounded-Bold.otf");
+	font-weight: bold;
+}
+@font-face{
+	font-family: "sf-pro";
+	src: url("../fonts/sf-pro/sf-pro_regular.woff2");
+	font-weight: normal;
+}
+@font-face{
+	font-family: "sf-pro";
+	src: url("../fonts/sf-pro/sf-pro_semibold.woff2");
+	font-weight: 600;
+}
+@font-face{
+	font-family: "sf-pro";
+	src: url("../fonts/sf-pro/sf-pro_bold.woff2");
+	font-weight: bold;
+}
+@font-face{
+	font-family: "museo";
+	src: url("../fonts/museo/MuseoSansRegular.ttf");
+	font-weight: normal;
+}
+@font-face{
+	font-family: "museo";
+	src: url("../fonts/museo/MuseoSansMedium.ttf");
+	font-weight: 600;
+}
+@font-face{
+	font-family: "museo";
+	src: url("../fonts/museo/MuseoSansBold.ttf");
+	font-weight: bold;
+}
