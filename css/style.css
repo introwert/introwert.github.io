@@ -8,16 +8,13 @@
 	src: url("../fonts/MuseoSansBold.woff");
 	font-weight: bold;
 }
-html{
-	overflow-x: hidden;
-	padding: 0 20px;
-}
 body{
 	font-family: museo, sans-serif;
 	font-size: 1.1rem;
 	min-width: 360px;
 	width: 970px;
 	margin: 3rem auto;
+	padding: 0 20px;
 	font-weight: normal;
 	position: relative;
 	line-height: 1.5;
@@ -92,16 +89,13 @@ i{
 
 	body{
 		width: 100%;
-		margin: .5rem 0 1rem;
+		margin: 1rem 0 2rem;
 	}
 
 }
 
 @media only screen and (max-width : 700px){
 
-	body{
-		margin: .8rem 0 1rem;
-	}
 	header h1{
 		font-size: 2rem;
 		line-height: 1.4;
